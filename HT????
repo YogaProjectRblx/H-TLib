@@ -42,7 +42,7 @@ local Custom = {} do
 
   function Custom:GetLogo()
     if getcustomasset and writefile then
-      writefile("HutaoLogo.png", game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Main/refs/heads/main/Library/Logo.png"))
+      writefile("HutaoLogo.png", game:HttpGet("https://raw.githubusercontent.com/YogaProjectRblx/H-TLib/main/HutaoLogo.png"))
       return getcustomasset("HutaoLogo.png")
     else
       return ""
